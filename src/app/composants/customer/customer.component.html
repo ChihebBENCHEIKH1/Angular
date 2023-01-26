@@ -1,0 +1,14 @@
+<p>cuss w</p>
+<button (click)="getall()">hey</button>
+<div class="container">
+<table class="table" *ngIf="customers$|async">
+    <thead>
+      <th>ID</th><th>Name</th><th>Mail</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of customers$|async">
+        <td>{{p.id}}</td><td>{{p.name}}</td><td>{{p.mail}}</td>
+      </tr>
+    </tbody>
+</table>
+</div>

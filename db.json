@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "computer",
+      "price": 1000,
+      "quantity": 58,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "printer",
+      "prix": 200,
+      "quantite": 200,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "kawazaki z800",
+      "price": 6000,
+      "quantity": 10,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "RANGE ROVER VELAR",
+      "price": 50000,
+      "quantity": 10,
+      "selected": true,
+      "available": true
+    },
+    {
+      "name": "Mustang",
+      "price": 50000,
+      "quantity": 10,
+      "selected": true,
+      "available": true,
+      "id": 4
+    }
+  ]
+}
